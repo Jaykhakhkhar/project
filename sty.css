@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #a8d5a2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: #333;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 12px;
+    padding: 8px 12px;
+    margin-top: 20px;
+    width: 340px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+.left-icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.left-icons i {
+    font-size: 1rem;
+    color: #333;
+}
+
+.tag {
+    background: #111;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.right-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-icons i {
+    font-size: 1rem;
+    color: #666;
+    cursor: pointer;
+}
+
+.send-btn {
+    border: none;
+    background: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.tags {
+    margin-top: 20px;
+}
+
+.tags span {
+    display: inline-block;
+    background: #6CBF69;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.auth {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+}
+
+.signup, .login {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.signup {
+    background: #007BFF;
+    color: white;
+}
+
+.login {
+    background: white;
+    border: 2px solid #ccc;
+    color: #333;
+}
