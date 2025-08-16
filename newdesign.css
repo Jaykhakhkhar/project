@@ -1,0 +1,141 @@
+body {
+    background-color: #212121;
+    margin: 0;
+    border: 0;
+    align-items: center;
+}
+
+.block {
+    text-align: center;
+    margin-top: 16rem;
+}
+
+.block h1 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: Default;
+    font-size: 4rem;
+    /* line-height: 120%; */
+    /* letter-spacing: 0%; */
+    text-align: center;
+    color: #e2e2e2;
+}
+
+#text-box {
+    width: 46rem;
+    height: 8rem;
+    opacity: 1;
+    border-radius: 1.8rem;
+    padding: 13.16px 13.16px 15px 18.16px;
+    border: none;
+    outline: none;
+    background-color: #303030;
+}
+
+.search-button-div {
+    position: absolute;
+    top: 29.9rem;
+    left: 22.4rem;
+}
+
+/* .search-button {
+    color: #fff;
+    background: #000;
+    border-radius: 0.4rem;
+    height: 2rem;
+    width: 15rem;
+} */
+
+.search-button1 {
+    color: #212121;
+    background: #e2e2e2;
+    /* border-color: #212121; */
+    border-radius: 0.7rem;
+    height: 2rem;
+    width: 4.5rem;
+    /* margin-top: 0.17rem; */
+    /* border: none; */
+    border: none;
+}
+
+.send-button-div {
+    position: absolute;
+    top: 29.7rem;
+    left: 65.8rem;
+}
+
+.send-button {
+    border-radius: 2rem;
+    color: #e2e2e2;
+    background: #424242;
+    border: none;
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.send-button:hover {
+    opacity: 0.7;
+}
+
+.send-button:active {
+    box-shadow: 1px 1px 5px #212121;
+}
+input::placeholder {
+    justify-content: left;
+    position: absolute;
+    top: 2rem;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+    .block h1 {
+        font-size: 3rem;
+    }
+
+    #text-box {
+        width: 41rem;
+        height: 7rem;
+    }
+
+    .search-button-div {
+        top: 26.3rem;
+        left: 11.4rem;
+    }
+
+    .send-button-div {
+        top: 26rem;
+        left: 50.3rem;
+    }
+
+    .block {
+    margin-top: 15rem;
+}
+}
+
+@media (max-width: 426px) {
+    #text-box {
+        width: 19rem;
+        height: 2rem;
+        margin-left: 4.3rem;
+        margin-top: 15.7rem;
+    }
+    .block h1 {
+        font-size: 2rem;
+    }
+
+    input::placeholder {
+        top: 0.98rem;
+        font-size: 1.3rem;
+    }
+
+    .search-button-div {
+        top: 34.85rem;
+        left: 0.4rem;
+    }
+
+    .search-button1 {
+        border-radius: 4rem;
+    }
+
+    
+}
